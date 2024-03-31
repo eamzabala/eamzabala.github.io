@@ -33,3 +33,30 @@ section.main #button {
 
   text-align: center;
 }
+
+section.home {
+  text-align: center;
+}
+
+section.home #button {
+  appearance: button;
+  width: 195px;
+
+  text-decoration: none;
+  color: initial;
+  border: 2px #77bbff solid;
+  padding: 2px;
+  background-color: #b1d5ff;
+  margin: 0px calc(50% - 195px/2);
+
+  text-align: center;
+}
+
+section.home table {
+  width: 60vw;
+  margin: 1vh calc(50% - 60vw/2);
+}
+
+section.home td {
+  border: 1px solid black;
+}
